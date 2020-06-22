@@ -1,6 +1,10 @@
 # mysql-onDocker
 MySQL on Docker
 
+----
+* `master`ブランチでDB授業の諸々をやっています
+* `env`ブランチに`docker-compose.yml`、`Dockerfile`、`Makefile`等のMySQLをDocker上で動かして必要なファイルだけが置いてあります。使うときは`env`ブランチをdownloadするか、clone(するとき||した後)に`env`ブランチに移動してください。
+
 ## how to use
 ### 1.用意するもの
 * Docker
