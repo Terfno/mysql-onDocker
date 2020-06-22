@@ -24,7 +24,9 @@ $ make init
 ```
 
 ### 5.MySQLを使う。
-↓`filename.sql`ファイルを走らせる(コンテナ内で実行する)。
+コンテナには`./db/sql`がマウントされている。
+
+↓`./db/sql/filename.sql`ファイルを走らせる(コンテナ内で実行する)。
 ```sh
 $ make sql < filename.sql
 ```
